@@ -1,4 +1,4 @@
-# ipcamera tools
+# Trendnet  | D-Link | Eneo
 | Trendnet  | D-Link | Eneo | Unpacker script | Notes |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | TV-IP572P, TV-IP572PI, TV-IP572W, TV-IP572WI, TV-IP672P, TV-IP672PI, TV-IP672W, TV-IP672WI | DCS-942L, DCS-5211L, DCS-5222L Rev. A | | [unp_fw_TV-IP572PI.sh](unp_fw_TV-IP572PI.sh)| Seem to be rebranded Alphanetworks cameras |
@@ -9,3 +9,10 @@
 | | DCS-2130, DCS-2132L, DCS-2210, DCS-2230, DCS-2330L, DCS-2332L, DCS-3710, DCS-3716, DCS-5222L Rev. B, DCS-6511, DCS-6616, DCS-6815, DCS-6818, DVS-210, DVS-310 | GXC-1710M (=APPRO LC7513), GXB-1710M/IR, GXC-1720M | [decode_fw.c](decode_fw.c), [mount_jffs2.sh](decode_fw.c) | This also applies to American Dynamics cameras, ADCi400-xxxx
 | | DNR-202L | 	| [appro_decrypt.c](appro_decrypt.c), [appro_unpack.c](appro_unpack.c) | This also applies to cameras based on Appro DMS-3011, DMS-3014, LC-7211, LC-7213, LC-7214, LC-7215, NVR-2018, NVR-2028, DMS-3016, PVR-3031, LC-7224, LC-7225, DMS-3009, DMS-3004 |
 | | | PXD-2018 PTZ1080, PXC-2080 All Level1 cameras | [unp_fw_PXD-2018.sh](unp_fw_PXD-2018.sh), [mount_ubifs.sh](mount_ubifs.sh)	| Firmware contains a UBIFS image. |
+
+# Tenvis
+Here is my Firmware un- and repacker for their pk2 files: [tenvis_pack.c](tenvis_pack.c)
+
+# Hisilicon
+Here is my FLS file repacker: [flspack.c](flspack.c)  
+SIP-E200STA (based on Hi3516A): [smtpack.c](smtpack.c) (now with repacker as requested)
